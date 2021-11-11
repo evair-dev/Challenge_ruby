@@ -1,4 +1,4 @@
-# Roman to Integer
+# Is valid brackets
 
 Given a string `s` containing just the characters `(`,`)`,`{`,`}`,`[`,`]`.  
 Determinate if the input string is valid if:

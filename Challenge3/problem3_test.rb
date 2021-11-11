@@ -1,8 +1,8 @@
 require "minitest/autorun"
-require_relative "./problem2"
+require_relative "./problem3"
 
 class Problem3Test < Minitest::Test
-    def test_is_valid_bracket
+    def test_plus_one
         assert_equal [1,2,4], Problem3.plus_one("digits = [1,2,3]")
         assert_equal [4,3,2,2], Problem3.plus_one("digits = [4,3,2,1]")
         assert_equal [1], Problem3.plus_one("digits = [0]")
